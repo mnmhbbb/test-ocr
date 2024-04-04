@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google-cloud/vision": "^4.2.0",
+    "axios": "^1.6.8",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.12.4",
     "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"
