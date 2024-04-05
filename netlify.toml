@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/vision/*"
+  to = "https://vision.googleapis.com/v1/images:annotate/:splat"
+  status = 200
+  force = true

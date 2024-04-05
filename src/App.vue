@@ -59,7 +59,6 @@ const sendToVisionApi = async (base64Image: string) => {
       extractedText.value = '텍스트를 찾을 수 없습니다.';
     }
   } catch (error) {
-    alert('에러 발생');
     isLoading.value = false;
     console.error(error);
   }
