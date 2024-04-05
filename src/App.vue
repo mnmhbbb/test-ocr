@@ -37,7 +37,7 @@ interface AnnotateImageResponse {
 const sendToVisionApi = async (base64Image: string) => {
   try {
     isLoading.value = true;
-    const response = await axios.post<AnnotateImageResponse>(`/.netlify/functions/vision?key=${API_KEY}`,
+    const response = await axios.post<AnnotateImageResponse>(`/vision?key=${API_KEY}`,
       {
         requests: [
           {
